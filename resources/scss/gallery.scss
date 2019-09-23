@@ -1,0 +1,17 @@
+section#instafeed {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  a {
+    box-sizing: border-box;
+    div {
+      height: 300px;
+      box-sizing: border-box;
+      background-size: cover;
+      background-position: center center;
+    }
+    &:hover div {
+      transition: all ease-in 0.2s;
+      box-shadow: inset 0px 10px 20px #000000;
+    }
+  }
+}

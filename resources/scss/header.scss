@@ -1,0 +1,35 @@
+header {
+  display: grid;
+  position: absolute;
+  z-index: 9999999;
+  width: 100%;
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, transparent, #000000);
+  grid-template-columns: auto 1fr;
+  padding: 30px 40px;
+  div.logo {
+    width: 250px;
+  }
+  nav {
+    align-self: center;
+    ul {
+      display: grid;
+      grid-template-columns: 1fr repeat(6, auto);
+      li {
+        margin: 0 10px;
+        a {
+          color: #ffffff;
+          text-transform: uppercase;
+          font-weight: 500;
+          font-size: 14px;
+          letter-spacing: 1px;
+          padding: 7px 10px;
+          transition: ease all 0.3s;
+          &:hover {
+            border-bottom: 3px solid #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

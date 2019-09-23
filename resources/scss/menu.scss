@@ -1,0 +1,46 @@
+@import 'variables';
+
+section#regular-menu {
+  text-align: center;
+  article {
+    padding: 8% 0;
+
+    h1 {
+      font-size: 40px;
+      color: #000000;
+    }
+    ul {
+      margin: auto;
+      margin-top: 8%;
+      display: block;
+      width: 1000px;
+      display: grid;
+      grid-template-columns: repeat(5, 200px);
+      li {
+        a {
+          box-sizing: border-box;
+          margin: 10px;
+          padding: 30px 10px;
+          display: block;
+          border-radius: 5px;
+          background-color: #7d2220;
+          &:hover {
+            background-color: #000000;
+          }
+          h2 {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-top: 20px;
+            font-size: 14px;
+            color: #ffffff;
+            font-weight: 500;
+          }
+          img {
+            width: 40%;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+@import 'variables';
+
+section#contact {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  article {
+    &:first-child {
+      background-color: $primary_color;
+      padding: 10%;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+    p {
+      margin-top: 20px;
+      width: 80%;
+      line-height: 160%;
+      color: #ffffff;
+      strong {
+        font-weight: 600;
+      }
+    }
+  }
+}

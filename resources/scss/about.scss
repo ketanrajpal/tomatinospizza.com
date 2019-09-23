@@ -1,0 +1,34 @@
+@import 'variables';
+
+section#about,
+section#book-now {
+  text-align: center;
+  padding: 5% 0;
+  h1 {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 80px;
+  }
+  p {
+    width: 80%;
+    margin: auto;
+    line-height: 160%;
+  }
+  a {
+    background-color: $primary_color;
+    margin-top: 40px;
+    padding: 12px 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    display: inline-block;
+    &:hover {
+      background-color: #000000;
+    }
+  }
+}
