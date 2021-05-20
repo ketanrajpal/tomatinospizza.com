@@ -3,9 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven
-    </title>
+    <title>Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven</title>
 
     <meta
       name="description"
@@ -14,10 +12,7 @@
     <link rel="canonical" href="https://www.tomatinospizza.com/" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:type" content="website" />
-    <meta
-      property="og:title"
-      content="Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven"
-    />
+    <meta property="og:title" content="Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven" />
     <meta
       property="og:description"
       content="Tomatino's Pizzeria serves traditional Italian pizza, made with 24 hour proved sourdough and traditional Italian ingredients, cooked in a wood fired clay oven."
@@ -29,18 +24,52 @@
       name="twitter:description"
       content="Tomatino's Pizzeria serves traditional Italian pizza, made with 24 hour proved sourdough and traditional Italian ingredients, cooked in a wood fired clay oven."
     />
-    <meta
-      name="twitter:title"
-      content="Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven"
-    />
+    <meta name="twitter:title" content="Tomatino's Pizzeria - Traditional Italian Pizza Cooked in Clay Oven" />
 
-    <link
-      href="./resources/css/default.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="./resources/css/default.min.css" rel="stylesheet" type="text/css" />
+    <style>
+      div.overlay {
+        height: 100%;
+        width: 100%;
+        display: grid;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 99999999999;
+        align-items: center;
+        align-content: center;
+      }
+      div.overlay div.alert {
+        background-color: rgba(255, 255, 255, 0.9);
+        width: 700px;
+        margin: auto;
+        display: block;
+        border-radius: 10px;
+      }
+      div.overlay div.alert div.content {
+        padding: 30px;
+      }
+      div.overlay div.alert div.content p {
+        font-size: 20px;
+        line-height: 150%;
+        font-weight: 500;
+      }
+    </style>
   </head>
   <body>
+    <div class="overlay">
+      <div class="alert">
+        <div class="content">
+          <p>
+            Dear Valued customers <br /><br />
+            We wish to inform you that the restaurant has now been sold and therefore will no longer have the same management. <br /><br />
+            We would like to say a huge thank you for all the support you have given us.
+            <br /><br />
+            Thank you for your loyal patronage. <br /><br />
+            Management
+          </p>
+        </div>
+      </div>
+    </div>
     <header>
       <div class="logo">
         <img src="./resources/img/tomatinos-logo.png" width="100%" />
@@ -67,27 +96,19 @@
       <h1>Tomatino's Pizzeria</h1>
       <h2>Traditional Italian Pizza Cooked in Clay Oven</h2>
       <p>
-        In a highly afluent London Road in Thornton Heath, Tomatinos serves
-        traditional Italian pizza, made with traditional Italian ingredients,
-        cooked in a wood fired clay oven. We also have Italian cured meats and
-        cheese available to buy from the Deli, where you can also drop in for
-        coffee and biscotti.<br /><br />The pizza served in Tomatinos, is
-        exactly the same as the pizza you can eat on the streets of Italy, using
-        the same traditional Italian ingredients and adopting the same authentic
-        cooking method.
+        In a highly afluent London Road in Thornton Heath, Tomatinos serves traditional Italian pizza, made with traditional Italian ingredients,
+        cooked in a wood fired clay oven. We also have Italian cured meats and cheese available to buy from the Deli, where you can also drop in for
+        coffee and biscotti.<br /><br />The pizza served in Tomatinos, is exactly the same as the pizza you can eat on the streets of Italy, using the
+        same traditional Italian ingredients and adopting the same authentic cooking method.
       </p>
-      <a target="_blank" href="./resources/downloads/menu.pdf"
-        >Download Tomatino's Pizzeria Menu</a
-      >
+      <a target="_blank" href="./resources/downloads/menu.pdf">Download Tomatino's Pizzeria Menu</a>
     </section>
 
     <section id="instafeed" class="instafeed"></section>
 
     <section id="book-now">
       <h1>Book a table at Tomatino's Pizzeria</h1>
-      <h2>
-        Traditional Italian Pizza Cooked in Clay Oven
-      </h2>
+      <h2>Traditional Italian Pizza Cooked in Clay Oven</h2>
 
       <script
         type="text/javascript"
@@ -113,7 +134,7 @@
           width="100%"
           height="380"
           frameborder="0"
-          style="border:0;"
+          style="border: 0"
           allowfullscreen=""
         ></iframe>
       </article>
